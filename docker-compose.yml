@@ -1,0 +1,6 @@
+version: '2'
+services:
+  gcloud-config:
+    build: .
+    container_name: gcloud-config
+    image: flba/gcloud
